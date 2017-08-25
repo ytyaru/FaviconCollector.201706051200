@@ -1,0 +1,210 @@
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://www.tumblr.com/login
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: http://ideone.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+Exception on /AppendUrl [POST]
+Traceback (most recent call last):
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/media/mint/85f78c06-a96e-4020-ac36-9419b7e456db/mint/root/tools/pyenv/3.6.1/venv/webapp/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 54, in post_append_url
+    return flask.jsonify(ResultSet=json.dumps(return_data))
+NameError: name 'return_data' is not defined
+-------------------------------- post_append_url()
+debug message: https://github.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://getpocket.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://getpocket.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://getpocket.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: http://ja.stackoverflow.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: http://ja.stackoverflow.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: http://ja.stackoverflow.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://getpocket.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://qiita.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:None
+-------------------------------- post_append_url()
+debug message: https://paiza.jp/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:<src.WebServiceData.WebServiceData object at 0xb5e5c54c>
+-------------------------------- post_append_url()
+debug message: https://teratail.com/
+-------------------------------- InsertGet前
+-------------------------------- InsertGet後:<src.WebServiceData.WebServiceData object at 0xb5e7c2cc>

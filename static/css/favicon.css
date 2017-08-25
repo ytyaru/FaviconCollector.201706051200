@@ -1,0 +1,75 @@
+@charset "utf-8";
+/*
+.base64-icon {
+    display: inline-block;
+}
+a .base64-icon:hover {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    / ニアレストネイバー法 https://developer.mozilla.org/ja/docs/Web/CSS/image-rendering /
+   image-rendering: -moz-crisp-edges;
+   image-rendering: -o-crisp-edges;
+   image-rendering: -webkit-optimize-contrast;
+   image-rendering: crisp-edges;
+   -ms-interpolation-mode: nearest-neighbor;
+   / 半透明マウスカーソル http://www.tagindex.com/stylesheet/page/cursor.html /
+   cursor: url(half_alpha_mouse_cursor.png), default;
+}
+*/
+html, body, div, img, a {
+    margin: 0px
+    padding: 0px
+}
+img.base64-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding: 16px;
+    padding: 16px;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+img.base64-icon:hover {
+    width: 64px;
+    height: 64px;
+    padding: 0px;
+    padding: 0px;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+/*    cursor: url(../../src/half_alpha_mouse_cursor.png), default;*/
+/*    cursor: url(/src/half_alpha_mouse_cursor.png), default;*/
+/*
+    cursor: url(/../../src/half_alpha_mouse_cursor.png), default;
+    cursor: url(./../../src/half_alpha_mouse_cursor.png), default;
+    cursor: url(localhost:8080/src/half_alpha_mouse_cursor.png), default;
+*/
+    cursor: url(127.0.0.1:8080/src/half_alpha_mouse_cursor.png), default;
+
+    /*
+    width: 32px;
+    height: 32px;
+   image-rendering: -moz-crisp-edges;
+   image-rendering: -o-crisp-edges;
+   image-rendering: -webkit-optimize-contrast;
+   image-rendering: crisp-edges;
+   -ms-interpolation-mode: nearest-neighbor;
+   cursor: url(half_alpha_mouse_cursor.png), default;
+   */
+   /*
+    -webkit-transform: scale(2.0);
+    -moz-transform: scale(2.0);
+    -o-transform: scale(2.0);
+    -ms-transform: scale(2.0);
+    transform: scale(2.0);
+    */
+}
+
